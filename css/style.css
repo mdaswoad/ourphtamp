@@ -1,0 +1,266 @@
+body {
+    margin: 0px;
+    padding: 0;
+ }
+/*thats our fast section desin start */
+#NavSection {
+    background-image: linear-gradient(#eb01a500, #0b0a0ad4),url(/images/donation4.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    /* overflow: hidden; */
+}
+.nav-content-box{
+    width:90%;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+}
+.contentpara{
+    width:44%;
+    margin:auto;
+}
+.contentpara h2{
+    margin:0;
+    width:100%;
+    padding-top:45%;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    font-family:'Mingzat', sans-serif;
+    color:white;
+    line-height: 80px;
+    padding-bottom:40px
+}
+.contentpara p{
+    color:rgba(255, 255, 255, 0.559);
+    font-family: arial;
+    text-align: center;
+}
+.btn-donate{
+    width:150px;
+    padding:10px 14px;
+    font-family:  'Arima', cursive;
+    font-weight: bold;
+    margin-top:20px;
+    background: tomato;
+    border:none;
+    font-size:18px;
+    margin:30px auto;
+    display:block;
+    border-radius: 2px ;
+    color:white;
+}
+/*end the fast section design */
+
+/*start amount section design*/
+.continer{
+    width:44%;
+    margin:auto;
+}
+.amountcontent h2{
+    font-family: 'Mingzat', sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 0;
+    padding:40px 0;
+}
+.amountcontent p{
+    color:black;
+    font-family: arial;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 50px;
+}
+.amountBox{
+    display: flex;
+    margin:50px 0;
+}
+.box{
+    width: 17%;
+
+    text-align: center;
+    padding:46px 0px;
+    margin:0 2%;
+    font-family:arial black;
+}
+.borderx {
+    border: 1px solid tomato;
+    border-radius: 3px;
+    color: tomato;
+    text-shadow: 2px 1px 4px black;
+}
+.amountBoxContiner p{
+    text-align: center;
+    margin-top:30px;
+    color:rgba(47, 45, 45, 0.88)
+}
+#donateAmount{
+    padding:50px 0px ;
+}
+.inputbox{
+    border-top:none;
+    border-right: none;
+    border-left:none;
+    border-bottom: 1px solid rgb(123, 123, 123);
+    width:100% ;
+    text-align: center;
+    padding:8px 0px;
+    font-size:18px;
+    margin-top:40px;
+}
+.denateplancontiner{
+    width:60%;
+    margin:auto;
+}
+.title h2 {
+    font-family: 'Mingzat', sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 0;
+}
+.title p{
+    text-align: center;
+    color:rgba(47, 45, 45, 0.88)
+}
+
+.fast-foud{
+    width:32%;
+    padding:30px 20px;
+    text-align: cenetr;
+    margin:40px 0px;
+    margin:0 2%
+
+}
+.fast-foud p{
+    text-align: justify;
+    line-height: 1.3em;
+    padding-bottom:40px;
+}
+.fast-foud img{
+    width:80px;
+    margin:20px auto;
+    display: block;
+}
+.fast-foud h2{
+    text-align: center;
+    font-size: 32px;
+}
+.pordutc{
+    display:flex;
+    justify-content: space-around;
+    margin:70px 0;
+}
+.bgSc{
+    background: rgba(255, 99, 71, 0.485);
+
+} 
+.bgtt{
+    background-color: rgba(233, 151, 136, 0.484);
+}
+.shodow{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.574);
+}
+
+/*this design just for looking */
+.midSection{
+    margin:80px 0;
+    padding:40px 30px ;
+}
+.continerimgandtext{
+    width:60%;
+    margin:auto;
+    display: flex;
+}
+.imgBox img{
+    max-width:100%
+}
+.contentText{
+    width:40%;
+    margin:0 10px;
+}
+.contentText h2{
+    font-size: 24px;
+    font-family:'Mingzat', sans-serif ;
+    line-height: 28px;
+}
+
+
+.contentText p {
+    text-align: justify;
+    line-height: 20px;
+}
+.btn-donateb{
+    width:150px;
+    padding:10px 14px;
+    font-family:  'Arima', cursive;
+    font-weight: bold;
+    margin-top:20px;
+    background: tomato;
+    border:none;
+    font-size:18px;
+    margin-top :50px;
+    margin-left: auto;
+    display:block;
+    border-radius: 2px ;
+    color:white;
+}
+
+
+
+
+/*subscibe tion section design*/
+.continer_subscribe{
+    width:60%;
+    margin:auto;
+}
+.continer_subscribe h2 {
+    font-family: 'Mingzat', sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 0;
+}
+.continer_subscribe p{
+    font-family:sans-serif;
+    width:70%;
+    text-align: center;
+    margin:20px auto 40px;
+    line-height: 20px;
+}
+.subscribebtn{
+    width:60%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+}
+.subinput{
+    padding: 8px 30px ;
+    font-size: 18px;
+    text-align: center;
+    border: tomato solid 1px;
+}
+.submt{
+    border:tomato solid 1px ;
+    background: tomato;
+    color:white;
+    font-family:'Arima', cursive ;
+    padding: 0 20px;
+    font-size: 18px;
+}
+/*footer design*/
+footer{
+    height:15vh;
+    background-color: black;
+    margin-top:70px
+}
+.continerFooter h2{
+    padding-top: 20px;
+    color:tomato;
+    font-family: 'Arima', cursive;
+    text-align:center;
+    font-size:36px
+}
+.continerFooter p{
+    color:white;
+    font-family: arial;
+    text-align: center;
+}
